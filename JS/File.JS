@@ -1,7 +1,5 @@
-//$('zoom').on('click', function(){
-//$(this).css({'transform': 'scale('+ $(this).attr('data-scale') +')'});
-//});
+function myfunction(e){
+    $("img").css({'transform': 'scale(1)'});
+    $(e).css({'transform': 'scale('+ $(e).attr('data-scale') +')'});
+};
 
-$(document).ready (function) {
-    alert ("Welcome to the page!")
-}
