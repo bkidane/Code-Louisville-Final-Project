@@ -4,7 +4,6 @@
   top: 0;
   left: 0;
   bottom: 0;
-  
   z-index: 1;
   display: flex;
 }
@@ -13,16 +12,15 @@
   z-index: 2;
   display: block;
   margin-left: auto;
-  
   width: 25%;
   height: 25%;
 }
-
-
 body {
   margin: 0;
   padding: 0;
 }
+
+
 /* hamburger basic style */
 #menuToggle {
   display: block;
@@ -122,7 +120,7 @@ body {
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -161,29 +159,7 @@ body {
 /************************************************
 Flexbox
 ************************************************/
-
-/************************************************
-Media Queries
-************************************************/
-  @media (max-width: 1200px) {
-    #photos {
-    float: left;
-    width: 25%;
-    }
-  }
-  @media (max-width: 1000px) {
-    #photos {
-     width: 50%;
-    }
-  }
-  @media (max-width: 800px) {
-    #photos {
-    width: 100%;
-    }
-  }
-  @media (max-width: 400px) {
-    #photos {
-    width: 100%;
-    }
-  }
+.img-fluid, {
+  flex: none;
+}
 

@@ -25,7 +25,10 @@
     text-align: center;
     z-index: 2;
   }
-  /* Media Queries */
+
+/************************************************
+Media Queries
+************************************************/
   @media (max-width: 1200px) {
     #photos {
     float: left;

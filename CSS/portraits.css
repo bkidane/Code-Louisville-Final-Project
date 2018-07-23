@@ -10,7 +10,6 @@
     column-gap:           0px;  
     transition: transform .5s ease-out;
   }
-    
  
   #photos img {
     /* Just in case there are inline attributes */
@@ -26,13 +25,14 @@
     text-align: center;
     z-index: 2;
   }
-    /* Media Queries */
-    @media (max-width: 1200px) {
-      #photos {
-      float: left;
-      width: 25%;
-      }
+  #photos {
+    float: left;
+    width: 25%;
     }
+  
+/************************************************
+Media Queries
+************************************************/
     @media (max-width: 1000px) {
       #photos {
        width: 50%;
