@@ -1,9 +1,11 @@
+
 # Code-Louisville-Final-Project
 
 Description
 This is a website for a friend's photography business
 
 The main page is a simple photo so I utilized custom media queries in the photo pages
+I created html and css pages for every page on the webpage in case I wanted to style them differently down the road
 
 Custom CSS Classes
 The class(es) I created are:
